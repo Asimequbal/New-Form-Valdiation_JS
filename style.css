@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #deefff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_border{
+    width: 516px;
+    height: 632px;
+    border: 28px solid #708191;
+    position: absolute;
+    top: 7.5%;
+    left: 16%;
+}
+.blue_container{
+    width: 920px;
+    height: 530px;
+    background-color: #0569c1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+    z-index: 2;
+}
