@@ -2,7 +2,9 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
 }
+
 .container{
     width: 100%;
     height: 100vh;
@@ -13,18 +15,123 @@
     align-items: center;
 }
 .outer_border{
-    width: 516px;
-    height: 632px;
-    border: 28px solid #708191;
+    width: 37%;
+    height: 95vh;
+    border: 30px solid #708191;
     position: absolute;
-    top: 7.5%;
-    left: 16%;
+    top: 2.5%;
+    left: 14%;
 }
 .blue_container{
-    width: 920px;
-    height: 530px;
+    width: 63%;
+    height: 80vh;
     background-color: #0569c1;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: -7px 6px 10px -4px;
     z-index: 2;
+    position: relative;
+}
+.report_form{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 40px;
+}
+.form_container{
+    position: absolute;
+    width: 70%;
+    height: 50vh;
+    background: white;
+    left: 15%;
+    top: 19%;
+    border-radius: 5px;
+    display: flex;
+}
+.valdition1{
+   width: 50%;
+   height: 100%;
+   background-color: white;
+   border-radius: 5px 0px 0px 5px;
+}
+.login_text{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.animate{
+    width: 50%;
+    height: 100%;
+    background: url(image/anime.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 5px 5px 0px;
+}
+.user input{
+    width: 72%;
+    height: 38px;
+    background-color: #f4f9fd;
+    border: .5px solid gray;
+    border-radius: 20px;
+    margin-top: 24px;
+    padding-left: 20px;
+    margin-left: 49px;
+}
+.email-Id input{
+    width: 72%;
+    height: 38px;
+    background-color: #f4f9fd;
+    border: .5px solid gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-left: 49px;
+}
+.passcode input{
+    width: 72%;
+    height: 38px;
+    background-color: #f4f9fd;
+    border: .5px solid gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-left: 49px;
+}
+.submit-btn button{
+    width: 72%;
+    height: 38px;
+    background-color: #0569c1;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 49px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.register{
+    padding-top: 40px;
+    text-align: center;
+    font-size: .7rem;
+    color: gray;
+    font-weight: lighter;
+}
+.error_message{
+    color: red;
+}
+.register a{
+    text-decoration: none;
+    color: #0569c1;
+}
+.copyrights{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: lighter;
 }

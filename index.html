@@ -5,19 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New_form_Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <div class="outer_border"></div>
         <div class="blue_container">
-                
+             <div class="report_form">Report Login Form</div> 
+             <div class="form_container">
+                <form class="valdition1" onsubmit="event.preventDefault(); return valdidateForm()">
+                    <h1 class="login_text">Log In</h1>
+                    <div class="user">
+                    <input type="text" name="fullName" placeholder="User name" id="fullName">
+                    </div>
+                    <div class="email-Id">
+                    <input type="Email" name="EmailId" placeholder="Please write your email" id="EmailId">
+                    </div>
+                    <div class="passcode">
+                    <input type="number" name="user_pasword" placeholder="Type your Password" id="User_name">
+                    </div>
+                    <div class="error_message"></div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn_submit">Log In</button>
+                    </div>
+                    <div class="register">Don't have an account? <a href="#">Register</a></div>
+                </form>
+                <div class="animate"></div>
+             </div>
+             <div class="copyrights">&#169 2022 Report Log In Form,All rights reserved | Design by Lorem</div>  
         </div>
     </div>
 
 
 
 
-    <script src="form.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
