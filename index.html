@@ -15,7 +15,7 @@
         <div class="blue_container">
              <div class="report_form">Report Login Form</div> 
              <div class="form_container">
-                <form class="valdition1" onsubmit="event.preventDefault(); return valdidateForm()">
+                <form class="valdition1" onsubmit="event.preventDefault(); return ReportLogin()">
                     <h1 class="login_text">Log In</h1>
                     <div class="user">
                     <input type="text" name="fullName" placeholder="User name" id="fullName">
@@ -24,9 +24,10 @@
                     <input type="Email" name="EmailId" placeholder="Please write your email" id="EmailId">
                     </div>
                     <div class="passcode">
-                    <input type="number" name="user_pasword" placeholder="Type your Password" id="User_name">
+                    <input type="number" name="user_pasword" placeholder="Type your Password" id="user_pasword">
                     </div>
                     <div class="error_message"></div>
+                    <div class="success_message"></div>
                     <div class="submit-btn">
                         <button type="submit" class="btn_submit">Log In</button>
                     </div>
@@ -41,6 +42,6 @@
 
 
 
-    <script src="script.js"></script>
+    <script src="cript.js"></script>
 </body>
 </html>

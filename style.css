@@ -135,3 +135,13 @@
     font-size: 0.8rem;
     font-weight: lighter;
 }
+.error_message{
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 10px;
+}
+.success_message{
+    text-align: center;
+    color: green;
+    font-size: 0.7rem;
+}
